@@ -48,6 +48,7 @@ int main()
 }
 ```
 ## 第五題
+```C
 #include <stdio.h>
 int main()
 {
@@ -72,3 +73,4 @@ int main()
     b=b/temp;
     printf("%d%d",a,b);
 }
+```
