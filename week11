@@ -1,3 +1,4 @@
+##第一題
 ```c
 #include <stdio.h>
 #include <string.h>//qsort()
@@ -30,5 +31,21 @@ int main()
    ans=1;
    }
   }
+}
+```
+##第二題
+```c
+#include <stdio.h>
+struct data
+{
+    int ans;
+    char c;
+};
+struct data box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
+    printf("%c %d\n",box.c,box.ans);
 }
 ```
