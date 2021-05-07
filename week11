@@ -1,4 +1,4 @@
-```C
+```c
 #include <stdio.h>
 #include <string.h>//qsort()
 #include <stdlib.h>//strcmp()
@@ -31,4 +31,4 @@ int main()
    }
   }
 }
-```c
+```
