@@ -49,3 +49,18 @@ int main()
     printf("%c %d\n",box.c,box.ans);
 }
 ```
+##第三題
+#include <stdio.h>
+typedef struct data
+{
+    int ans;//有幾個
+    char c;//字母
+}DATA;
+DATA box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
+    printf("%c %d\n",box.c,box.ans);
+}
+
