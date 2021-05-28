@@ -74,7 +74,7 @@ void setup(){
   for(int i=0;i<49;i++) a[i]=i+1;
   for(int i=0; i<10000; i++){//抽獎前先排好
     int i1=(int)random(49),i2=(int)random(49);
-    int temp=a[i1];a[i1]=a[i2]=a[i2]=temp;
+    int temp=a[i1];a[i1]=a[i2];a[i2]=temp;
   }
 }
 int N=0;
