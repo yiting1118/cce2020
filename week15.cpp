@@ -34,7 +34,7 @@ void mousePressed(){
   }
 }
 ```
-##03(java)
+##03(p5.js)
 ```c
 function setup(){ //設定 只做一次
   createCanvas(400,200);
